@@ -18,7 +18,7 @@ const Landing = () => {
     return (
         <>
             <div className = "h-screen w-screen bg-zinc-900 flex relative">
-                <Waves className = "absolute" lineColor="#757575" waveSpeedX = {0.15} waveSpeedY={0.15} waveAmpX={40} waveAmpY={20} friction={0.9} tension={0.01} maxCursorMove={120} xGap={24} yGap={36}/>
+                <Waves className = "absolute" lineColor="#757575" waveSpeedX = {0.03} waveSpeedY={0.03} waveAmpX={15} waveAmpY={15} friction={0.9} tension={0.01} maxCursorMove={120} xGap={24} yGap={36}/>
                 <div className = "z-8 mx-auto my-auto">
                     <h1 className = "text-white text-center text-6xl font-arial font-light z-8 italic mx-auto">Projectize</h1>
                     <h1 className = "mt-5 text-white text-center text-lg italic font-light">Your #1 open source organization app.</h1>

@@ -1,10 +1,7 @@
-import Beams from "../Beams"
-
 const About = () => {
     return (
         <>
             <div className = "h-70 bg-zinc-800 w-screen flex relative">
-                <Beams/>
                 <div className = "w-full h-70 p-7 grid grid-cols-1 lg:grid-cols-2 z-120">
                     <div>
                         <h1 className = "text-3xl font-semibold text-white">Why Projectize?</h1>
